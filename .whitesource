@@ -1,4 +1,7 @@
 {
+"scanSettingsSAST": {
+      "enableScan": true
+  },
   "scanSettings": {
     "configMode": "AUTO",
     "configExternalURL": "",
