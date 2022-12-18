@@ -45,7 +45,7 @@ import static java.sql.ResultSet.TYPE_SCROLL_INSENSITIVE;
 @AssignmentHints(value = {"SqlStringInjectionHint4-1", "SqlStringInjectionHint4-2", "SqlStringInjectionHint4-3"})
 public class SqlInjectionLesson4 extends AssignmentEndpoint {
 
-    private final LessonDataSource dataSource;
+    private final LessonDataSource dataSource  ;
 
     public SqlInjectionLesson4(LessonDataSource dataSource) {
         this.dataSource = dataSource;
